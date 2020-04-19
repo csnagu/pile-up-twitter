@@ -12,4 +12,3 @@ package:
 functions:
   update:
     handler: index.handler
-    environment: ${file(./config/secrets.yml)}
