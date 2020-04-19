@@ -1,0 +1,14 @@
+service: tsundoku
+provider:
+  name: aws
+  region: ap-northeast-1
+  timeout: 120
+
+package:
+  exclude:
+    - Dockerfile
+    - docker-compose.yml
+
+functions:
+  update:
+    handler: index.handler

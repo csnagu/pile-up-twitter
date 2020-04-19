@@ -1,0 +1,15 @@
+{
+  "name": "tsundoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto": "^1.0.1",
+    "google-spreadsheet": "^3.0.10",
+    "oauth-1.0a": "^2.2.6",
+    "querystring": "^0.2.0"
+  }
+}
